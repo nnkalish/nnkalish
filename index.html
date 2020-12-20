@@ -2,46 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>
-
-    </title>
-
+    <title>Title</title>
     <style>
-        .blPara
+        .blueParagraph
         {
             color: blue;
         }
-        .rdPara
-        {
+        .redParagraph {
             color: crimson;
         }
-        .mybord {
+        .myBorder {
+            border: black solid 2px;
+            border-radius: 5px;
+        }
+        .bottomBorder {
+            border-bottom: black solid 1px;
+        }
+        .blackBorder
+        {
             border-color: black blue red green;
         }
-        .botbor{
-            border-bottom: black solid 2px;
+        .solidBorder {
+            border-style: solid dashed solid dashed;
         }
+        .thinBorder {
+            border-width: 2px 1px 3px 4px;
+        }
+
+
     </style>
 </head>
 <body>
-<!--זה מה שמרצה הסביר-->
-<br>
-<!--<img src="images/Untitled.bmp" height="480" width="640"/>-->
-<!--<img src="images/Untitled.bmp" height="480" width="640"/>-->
-<!--<img src="images/Annotation%202020-04-08.png" alt="">-->
-<!--<br>-->
-<!--<img src="images/Annotation%202020-04-08.png" height="403" width="955"/>-->
-<!--Emmet-->
 
-<div id="page">
+<!--<img src="images/smart.jpg" height="683" width="1024"/>-->
+<!--<img src="images/Married-with-Children.jpg" height="454" width="748"/>-->
 
-    <img src="QUALITY - CAKE.jpg" height="1079" width="1920"/></div>
-
-<p class="blPara mybord">Hello</p>
-<p class="rdPara botbor">World</p>
-
-#page>div.logo+ul#navigation>li*5>a{Item $}
-
+<!--EMMET-->
+<div>
+    <p class="blueParagraph bottomBorder">Hello</p>
+    <p class="redParagraph myBorder">World</p>
+    <p class="blackBorder solidBorder thinBorder">See you</p>
+</div>
 
 </body>
+
 </html>
